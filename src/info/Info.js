@@ -27,80 +27,58 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    firstName: "Wally",
+    lastName: "Wallace",
+    pronouns: "he/him",
+    initials: "ww", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
-        },
-        {
             emoji: '🌎',
             text: 'based in the US'
         },
         {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
-        },
-        {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "jrvw001@gmail.com"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
-            link: "https://github.com",
+            link: "https://github.com/wally-yawn",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "www.linkedin.com/in/wally--wallace",
             icon: "fa fa-linkedin",
             label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
         }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Wally. I'm a full stack developer who studied at the Turing School of Software and Design after spending the previous 14 years as a software QA. I decided to make the change because I'm passionate about using technology to improve people's lives, and would love to explore creative ways we can use technology to protect the environment. If you're interested in that too let's chat!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'typescript', 'react', 'git', 'github', 'html5', 'css3', 'ruby on rails', 'sql'],
+            exposedTo: ['java', 'fusion 360']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'combat robotics',
+            emoji: '🦾'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'music',
+            emoji: '🎸'
         },
         {
-            label: 'movies',
-            emoji: '🎥'
+            label: 'gardening',
+            emoji: '🌿'
         },
         {
             label: 'cooking',
