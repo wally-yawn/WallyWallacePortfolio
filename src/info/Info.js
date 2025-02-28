@@ -59,7 +59,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Wally. I'm a full stack developer who studied at the Turing School of Software and Design after spending the previous 14 years as a Software QA Engineer in the Insurance and Healthcare technology space. I decided to make the change because I want to create tools to improve people's lives, and would love to explore creative ways we can use technology to protect the environment. If you're interested in that too let's chat!",
+    bio: "Hello! I'm Wally. I'm a full stack developer who studied at the Turing School of Software and Design after spending the previous 14 years as a Software QA Engineer in the Insurance and Healthcare technology spaces. I decided to make the change because I want to create tools to improve people's lives, and would love to explore creative ways we can use technology to protect the environment. If you're interested in that too, let's chat!",
     skills:
         {
             proficientWith: ['javascript', 'typescript', 'react', 'git', 'github', 'html5', 'css3', 'ruby on rails', 'sql'],
