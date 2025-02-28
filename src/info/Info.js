@@ -51,7 +51,7 @@ export const info = {
             label: 'github'
         },
         {
-            link: "www.linkedin.com/in/wally--wallace",
+            link: "https://www.linkedin.com/in/wally-wallace-719b0875/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         }
