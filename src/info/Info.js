@@ -1,14 +1,12 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import rancid from "../img/rancid.png"
+
+import { Description } from "@mui/icons-material"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+export let colors = ["rgb(0,191,255)", "rgb(166,104,255)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -60,11 +58,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Wally. I'm a full stack developer who studied at the Turing School of Software and Design after spending the previous 14 years as a software QA. I decided to make the change because I'm passionate about using technology to improve people's lives, and would love to explore creative ways we can use technology to protect the environment. If you're interested in that too let's chat!",
+    bio: "Hello! I'm Wally. I'm a full stack developer who studied at the Turing School of Software and Design after spending the previous 14 years as a Software QA Engineer in the Insurance and Healthcare technology space. I decided to make the change because I want to create tools to improve people's lives, and would love to explore creative ways we can use technology to protect the environment. If you're interested in that too let's chat!",
     skills:
         {
             proficientWith: ['javascript', 'typescript', 'react', 'git', 'github', 'html5', 'css3', 'ruby on rails', 'sql'],
-            exposedTo: ['java', 'fusion 360']
+            exposedTo: ['java']
         }
     ,
     hobbies: [
@@ -89,34 +87,31 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "Smart Gardening",
+            desc: "Smart Gardening is a website for beginning gardeners to be able to get plant recommendations ", 
+            live: "https://smart-gardening-fe.vercel.app/",
+            source: "https://github.com/sethverrill/smart-gardening-be", //https://github.com/wally-yawn/smart_gardening_fe
+            image: rancid
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "Tracker CRM",
+            desc: "Add some detail here wally",
+            live: "https://tracker-crm-fe-38f7cf1aaca5.herokuapp.com/",
+            source: "https://github.com/turingschool/tracker-crm", //https://github.com/turingschool/tracker-crm-fe
+            image: rancid
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
+            title: "Rancid Tomatillos",
+            desc: "Add some detail here wally",
+            live: "https://rancid-tomatillos-sandy.vercel.app/",
+            source: "https://github.com/wally-yawn/rancid-tomatillos",
+            image: rancid
         }
     ]
 }
+
+//things to add
+// - projects
+//    - description
+//    - screenshots
+//    - both fe and be repos
