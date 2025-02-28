@@ -1,6 +1,7 @@
 import self from "../img/self.png"
 import rancid from "../img/rancid.png"
-
+import smart from "../img/smart.png"
+import tracker from "../img/tracker.png"
 import { Description } from "@mui/icons-material"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -92,7 +93,7 @@ export const info = {
             live: "https://smart-gardening-fe.vercel.app/",
             besource: "https://github.com/sethverrill/smart-gardening-be",
             fesource: "https://github.com/wally-yawn/smart_gardening_fe",
-            image: rancid
+            image: smart
         },
         {
             title: "Tracker CRM",
@@ -100,7 +101,7 @@ export const info = {
             live: "https://tracker-crm-fe-38f7cf1aaca5.herokuapp.com/",
             besource: "https://github.com/turingschool/tracker-crm", 
             fesource: "https://github.com/turingschool/tracker-crm-fe",
-            image: rancid
+            image: tracker
         },
         {
             title: "Rancid Tomatillos",
