@@ -88,23 +88,25 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Smart Gardening",
-            desc: "Smart Gardening is a website for beginning gardeners to be able to get plant recommendations ", 
+            desc: "A website for beginning gardeners to be able to get plant recommendations based on their specific garden. The application was built with a React front end making calls to a Ruby on Rails backend, which was in turn making calls to OpenAI's API in order to generate recommendations. This was a great learning experience to work with React state and props to pass data between components.", 
             live: "https://smart-gardening-fe.vercel.app/",
-            source: "https://github.com/sethverrill/smart-gardening-be", //https://github.com/wally-yawn/smart_gardening_fe
+            besource: "https://github.com/sethverrill/smart-gardening-be",
+            fesource: "https://github.com/wally-yawn/smart_gardening_fe",
             image: rancid
         },
         {
             title: "Tracker CRM",
-            desc: "Add some detail here wally",
+            desc: "An application for Turing students to track job applications and contacts. I personally implemented a gateway between the app and OpenAI's api to generate practice interview questions based on a job description, and cleaned the data to be able to present to the front end.",
             live: "https://tracker-crm-fe-38f7cf1aaca5.herokuapp.com/",
-            source: "https://github.com/turingschool/tracker-crm", //https://github.com/turingschool/tracker-crm-fe
+            besource: "https://github.com/turingschool/tracker-crm", 
+            fesource: "https://github.com/turingschool/tracker-crm-fe",
             image: rancid
         },
         {
             title: "Rancid Tomatillos",
-            desc: "Add some detail here wally",
+            desc: "Legally distinct from any other website, Rancid Tomatillos was my first practice project built with React.",
             live: "https://rancid-tomatillos-sandy.vercel.app/",
-            source: "https://github.com/wally-yawn/rancid-tomatillos",
+            fesource: "https://github.com/wally-yawn/rancid-tomatillos",
             image: rancid
         }
     ]
