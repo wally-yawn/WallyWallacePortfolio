@@ -8,7 +8,7 @@ export default function Portfolio({innerRef}) {
         <Box id={'portfolio'} ref={innerRef}>
             <Grid container spacing={3} marginBottom={'10px'} marginTop={'10px'} justifyContent={'center'}>
                 {info.portfolio.map((project, index) => (
-                  <Grid item xs={12} md={6} lg={3} key={index} sx={{margin: '1%', boxShadow:2, background:'white', borderRadius:'2%'}} >
+                  <Grid item xs={12} md={6} lg={3} key={index} sx={{margin: '1%', boxShadow:2, borderRadius:'2%'}} >
                     <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} desc={project.desc} fesource={project.fesource} besource={project.besource}/>
                   </Grid>
                 ))}
