@@ -25,6 +25,7 @@
     "sass": "^1.54.5"
   },
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
