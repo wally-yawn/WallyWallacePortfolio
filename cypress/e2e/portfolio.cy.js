@@ -10,7 +10,7 @@ describe('Portfolio Site', () => {
   });
 
   it('displays mini bio emojis and resume link', () => {
-    cy.contains('🌎 based in the US');
+    cy.contains('🌎 Based in the US');
     cy.contains('📧 jrvw001@gmail.com');
     cy.get('#resume-link').should('have.attr', 'href', '/wally_wallace_resume.pdf');
   });
