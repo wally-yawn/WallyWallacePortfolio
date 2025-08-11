@@ -22,7 +22,7 @@
     "react-intersection-observer": "^9.16.0",
     "react-router-dom": "^6.3.0",
     "react-router-hash-link": "^2.4.3",
-    "sass": "^1.54.5"
+    "sass": "^1.90.0"
   },
   "scripts": {
     "start": "vite",
