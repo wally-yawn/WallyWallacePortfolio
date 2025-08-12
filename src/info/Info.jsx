@@ -2,7 +2,6 @@ import self from "../img/self.png"
 import rancid from "../img/rancid.png"
 import smart from "../img/smart.png"
 import tracker from "../img/tracker.png"
-import { Description } from "@mui/icons-material"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */

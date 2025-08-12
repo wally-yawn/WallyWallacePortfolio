@@ -1,4 +1,3 @@
-import React from 'react';
 import Style from './Home.module.scss';
 import me from '../../img/self.png';
 import classNames from 'classnames';
@@ -23,7 +22,9 @@ export default function Home({innerRef}) {
               {info.miniBio.map((bio, index) => (
                 <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
               ))}
-              <a className={Style.resume} href="/wally_wallace_resume.pdf" download id="resume-link">📄 Check Out My Resume!</a>
+              <li class="MuiBox-root css-5wehvv">
+                <a className={Style.resume} href="/wally_wallace_resume.pdf" download id="resume-link">📄&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check Out My Resume!</a>
+              </li>
           </Box>
           <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{xs: '2rem', md: '2.5rem'}}>
               {info.socials.map((social, index) => (
