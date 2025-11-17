@@ -28,7 +28,8 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "e2e:chrome": "cypress run --browser chrome"
   },
   "eslintConfig": {
     "extends": "react-app"
