@@ -47,7 +47,7 @@ describe('Portfolio Site', () => {
 
     cy.contains('Smart Gardening').should('exist');
     cy.contains('Tracker CRM').should('exist');
-    cy.contains('Rancid Tomatillos').should('exist');
+    cy.contains('The Deceitful Mind').should('exist');
 
     // Check that live and source links are visible
     cy.contains('Smart Gardening')

@@ -1,5 +1,5 @@
 import self from "../img/self.png"
-import rancid from "../img/rancid.png"
+import dm from "../img/dm.png"
 import smart from "../img/smart.png"
 import tracker from "../img/tracker.png"
 import { Description } from "@mui/icons-material"
@@ -62,7 +62,7 @@ export const info = {
     bio: "Hello! I'm Wally. I'm a full stack developer who studied at the Turing School of Software and Design after spending the previous 14 years as a Software QA Engineer in the Insurance and Healthcare technology spaces. I decided to make the change because I want to create tools to improve people's lives, and would love to explore creative ways we can use technology to protect the environment. If you're interested in that too, let's chat!",
     skills:
         {
-            proficientWith: ['javascript', 'typescript', 'react', 'git', 'github', 'html5', 'css3', 'ruby on rails', 'sql'],
+            proficientWith: ['javascript', 'typescript', 'react', 'git', 'github', 'html5', 'css3', 'ruby on rails', 'sql', 'python'],
             exposedTo: ['java']
         }
     ,
@@ -86,7 +86,7 @@ export const info = {
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [
         {
             title: "Smart Gardening",
             desc: "A website for beginning gardeners to be able to get plant recommendations based on their specific garden. The application was built with a React front end making calls to a Ruby on Rails backend, which was in turn making calls to OpenAI's API in order to generate recommendations. This was a great learning experience to work with React state and props to pass data between components.", 
@@ -104,17 +104,11 @@ export const info = {
             image: tracker
         },
         {
-            title: "Rancid Tomatillos",
-            desc: "Legally distinct from any other website, Rancid Tomatillos was my first practice project built with React.",
-            live: "https://rancid-tomatillos-sandy.vercel.app/",
-            fesource: "https://github.com/wally-yawn/rancid-tomatillos",
-            image: rancid
+            title: "The Deceitful Mind",
+            desc: "A website for my band, built in React.",
+            live: "http://www.thedeceitfulmind.com",
+            fesource: "https://github.com/wally-yawn/dm_website",
+            image: dm
         }
     ]
 }
-
-//things to add
-// - projects
-//    - description
-//    - screenshots
-//    - both fe and be repos
